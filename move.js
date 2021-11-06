@@ -32,6 +32,8 @@ function move(element) {
         }
         
         setInterval(moveCharacter, 1)
+
+        
         
         document.addEventListener('keydown', function(e){
             if(e.repeat) return;
